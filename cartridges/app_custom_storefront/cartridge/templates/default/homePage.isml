@@ -1,5 +1,6 @@
 <isdecorate template="common/layout/page">
     <isslot id="home-hero-slider" context="global" description="Home hero slider." />
-    <isinclude template="rendering/category/catLanding.isml" />
+    <h1 class="text-center px-2">${Resource.msg('top.categories', 'homepage', null)}</h1>
+    <isslot id="list-category-tiles" context="category" description="List of category tiles." context-object="${pdict.category}"/>
     <isslot id="home-featured-products" context="global" description="Home page featured products." />
 </isdecorate>
