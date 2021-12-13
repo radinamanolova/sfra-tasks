@@ -1,0 +1,6 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets');
+    assets.addCss('/css/search.css');
+</isscript>
+<h2 class="text-center px-2">${Resource.msg('top.categories', 'homepage', null)}</h2>
+<isslot id="list-category-tiles" context="category" description="List of category tiles." context-object="${pdict.category}"/>

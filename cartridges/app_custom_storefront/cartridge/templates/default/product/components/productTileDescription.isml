@@ -1,0 +1,3 @@
+<isif condition="${product.shortDescription}">
+    <p class="text-muted mt-3">${product.shortDescription}</p>
+</isif>

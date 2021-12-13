@@ -1,0 +1,5 @@
+<isdecorate template="common/layout/page">
+    <isslot id="home-hero-slider" context="global" description="Home hero slider." />
+    <isinclude template="rendering/category/catLanding.isml" />
+    <isslot id="home-featured-products" context="global" description="Home page featured products." />
+</isdecorate>
