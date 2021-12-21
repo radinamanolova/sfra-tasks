@@ -1,0 +1,22 @@
+<iscomment> <h1 class="text-center px-2">${Resource.msg('featured.products', 'homepage', null)}</h1>
+<div class="homepage-product-listing row">
+    <isloop items="${slotcontent.content}" var="product" status="loopState">
+        <div class="col-6 col-sm-4">
+            <isinclude url="${URLUtils.url('Tile-Show', 'pid', product.ID)}"/>
+        </div>
+    </isloop>
+</div> </iscomment>
+
+<h1 class="text-center px-2">${Resource.msg('featured.products', 'homepage', null)}</h1>
+<div class="homepage-product-listing row">
+    <isloop items="${slotcontent.content}" var="product" status="loopState">
+        <div class="col-md-4 text-center mb-5">
+            <a href="${URLUtils.url('Product-Show', "pid", product.ID)}">
+                <img src="${product.getImage('medium').httpURL}" alt="${product.name}" />
+                <h5 class="py-2">${product.name}</h5>
+            </a>
+            <isinclude template="product/components/productTileDescription" />
+            <span class="font-weight-bold">${Resource.msg('dollar.sign', 'homepage', null)}${product.priceModel.minPrice.value}</span>
+        </div>
+    </isloop>
+</div>

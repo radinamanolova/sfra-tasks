@@ -1,0 +1,6 @@
+<isdecorate template="common/layout/page">
+    <isslot id="home-hero-slider" context="global" description="Home hero slider." />
+    <h1 class="text-center px-2">${Resource.msg('top.categories', 'homepage', null)}</h1>
+    <isslot id="home-list-category-tiles" context="global" description="Home page list of category tiles."  />
+    <isslot id="home-featured-products" context="global" description="Home page featured products." />
+</isdecorate>

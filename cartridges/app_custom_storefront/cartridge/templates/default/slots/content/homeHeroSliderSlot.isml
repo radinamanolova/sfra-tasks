@@ -1,0 +1,31 @@
+<isif condition="${slotcontent != null}">
+    <div id="homeHeroSlider" class="carousel carousel-dark slide" data-interval="false" data-ride="carousel">
+    <isif condition="${slotcontent.content.length > 1}">
+            <ol class="carousel-indicators" aria-hidden="true">
+                <isloop items="${slotcontent.content}" var="image" status="loopStatus">
+                    <li data-target="#homeHeroSlider" data-slide-to="${loopStatus.index}" class='<isif condition="${loopStatus.index == 0}">active</isif>'>
+                    </li>
+                </isloop>
+            </ol>
+        </isif>
+        <div class="carousel-inner">
+        <isloop items="${slotcontent.content}" var="contentAsset" status="loopStatus">
+            <div class='carousel-item <isif condition="${loopStatus.index == 0}">active</isif>' style="text-align: center;">
+                <div class="d-block w-100">
+                    <isprint value="${contentAsset.custom.body}" encoding="off"/>
+                </div>
+            </div>
+        </isloop>
+        </div>
+        <isif condition="${slotcontent.content.length > 1}">
+            <a class="carousel-control-prev" href="#homeHeroSlider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">${Resource.msg('button.previous', 'homepage', null)}</span>
+            </a>
+            <a class="carousel-control-next" href="#homeHeroSlider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">${Resource.msg('button.next', 'homepage', null)}</span>
+            </a>
+        </isif>
+    </div>
+</isif>

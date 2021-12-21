@@ -1,0 +1,7 @@
+<div class="homepage-product-listing row">
+    <a href="${URLUtils.url('Product-Show', "pid", product.ID)}">
+        <h5>${product.name}</h5>
+        <h5>${Resource.msg('dollar.sign', 'homepage', null)}${product.priceModel.minPrice.value}</h5>
+        <img src="${product.getImage('small').httpURL}" alt="${product.name}" />
+    </a>
+</div>

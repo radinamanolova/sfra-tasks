@@ -1,0 +1,8 @@
+{
+    "hooks": [
+        {
+            "name": "app.custom.text",
+            "script": "./cartridge/scripts/hooks/test"
+        }
+    ]
+}

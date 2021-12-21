@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customer-groups xmlns="http://www.demandware.com/xml/impex/customergroup/2007-06-30">
+    <customer-group group-id="Registered Men">
+        <description>Customer group for registered users which are men</description>
+        <membership-rule>
+            <included-customers>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>customer.profile.gender</attribute-path>
+                        <operator>is-equal</operator>
+                        <int>1</int>
+                    </condition>
+                </condition-group>
+            </included-customers>
+            <excluded-customers>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>customer.profile.gender</attribute-path>
+                        <operator>is-equal</operator>
+                        <int>2</int>
+                    </condition>
+                </condition-group>
+            </excluded-customers>
+        </membership-rule>
+        <custom-attributes/>
+    </customer-group>
+
+    <customer-group group-id="Registered Women">
+        <description>Customer group for registered users which are women</description>
+        <membership-rule>
+            <included-customers>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>customer.profile.gender</attribute-path>
+                        <operator>is-equal</operator>
+                        <int>2</int>
+                    </condition>
+                </condition-group>
+            </included-customers>
+            <excluded-customers>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>customer.profile.gender</attribute-path>
+                        <operator>is-equal</operator>
+                        <int>1</int>
+                    </condition>
+                </condition-group>
+            </excluded-customers>
+        </membership-rule>
+        <custom-attributes/>
+    </customer-group>
+</customer-groups>
