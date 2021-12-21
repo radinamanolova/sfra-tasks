@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31" library-id="RefArchSharedLibrary">
+    <content content-id="category-landing-list-four">
+        <display-name xml:lang="x-default">Category Landing List Four</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h2&gt;Men Shoes&lt;/h2&gt;&#13;
+&lt;p&gt;&lt;img alt="Men Shoes" src="men-shoes.jpg?$staticlink$" title="Men Shoes" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="category-landing-list-one">
+        <display-name xml:lang="x-default">Category Landing List One</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h2&gt;Dresses&lt;/h2&gt;&#13;
+&lt;p&gt;&lt;img alt="Dresses" src="dresses.jpg?$staticlink$" title="Dresses" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="category-landing-list-three">
+        <display-name xml:lang="x-default">Category Landing List Three</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h2&gt;Women Shoes&lt;/h2&gt;&#13;
+&lt;p&gt;&lt;img alt="Women Shoes" src="women-shoes.jpg?$staticlink$" title="Women Shoes" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="category-landing-list-two">
+        <display-name xml:lang="x-default">Category Landing List Two</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h2&gt;Suits&lt;/h2&gt;&#13;
+&lt;p&gt;&lt;img alt="Suits" src="suits.jpg?$staticlink$" title="Suits" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="email-exclusive-products">
+        <display-name xml:lang="x-default">Email Exclusive Products</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;Here are our exclusive products: &lt;/p&gt;&#13;
+!PRODUCT=25589444M!PRODUCT=25778945M!PRODUCT=82936941M</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="home-hero-slide-1">
+        <display-name xml:lang="x-default">Home Hero Slide One</display-name>
+        <description xml:lang="x-default">First Home Hero Slide</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="Home Hero Slide" src="home-hero-slide-one.jpg?$staticlink$" title="Home Hero Slide" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="home-hero-slide-2">
+        <display-name xml:lang="x-default">Home Hero Slide Two</display-name>
+        <description xml:lang="x-default">Second Home Hero Slide</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="" src="home-hero-slide-two.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="home-hero-slide-3">
+        <display-name xml:lang="x-default">Home Hero Slide Three</display-name>
+        <description xml:lang="x-default">Third Home Hero Slide</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="Home Hero Slide" src="home-hero-slide-three.jpg?$staticlink$" title="Home Hero Slide" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="home-hero-slide-4">
+        <display-name xml:lang="x-default">Home Hero Slide Four</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="Home Hero Slide" src="home-hero-slide-two.jpg?$staticlink$" title="Home Hero Slide" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+</library>

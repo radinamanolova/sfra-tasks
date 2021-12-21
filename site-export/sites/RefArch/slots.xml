@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slot-configurations xmlns="http://www.demandware.com/xml/impex/slot/2008-09-08">
+    <slot-configuration slot-id="category-landing-list-assets" context="category" context-id="newarrivals" configuration-id="category-landing-list-assets" assigned-to-site="true">
+        <template>slots/content/homeHeroSliderSlot.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="category-landing-list-one"/>
+                <content-asset content-id="category-landing-list-two"/>
+                <content-asset content-id="category-landing-list-three"/>
+                <content-asset content-id="category-landing-list-four"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="category-landing-list-assets" context="category" context-id="mens" configuration-id="category-landing-list-assets" assigned-to-site="true">
+        <template>slots/content/homeHeroSliderSlot.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="category-landing-list-two"/>
+                <content-asset content-id="category-landing-list-four"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="category-landing-list-assets" context="category" context-id="womens" configuration-id="category-landing-list-assets" assigned-to-site="true">
+        <template>slots/content/homeHeroSliderSlot.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="category-landing-list-one"/>
+                <content-asset content-id="category-landing-list-three"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="list-category-tiles" context="category" context-id="newarrivals" configuration-id="category-tiles-default" assigned-to-site="true">
+        <template>slots/category/categoryTileCustom.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <categories>
+                <category category-id="newarrivals-womens"/>
+                <category category-id="newarrivals-mens"/>
+                <category category-id="newarrivals-electronics"/>
+            </categories>
+        </content>
+        <customer-groups>
+            <customer-group group-id="Unregistered"/>
+        </customer-groups>
+    </slot-configuration>
+
+    <slot-configuration slot-id="list-category-tiles" context="category" context-id="newarrivals" configuration-id="category-tiles-default-registered" assigned-to-site="true">
+        <template>slots/category/categoryTileCustom.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <categories>
+                <category category-id="newarrivals-womens"/>
+                <category category-id="mens-clothing-jackets"/>
+                <category category-id="womens-jewelry"/>
+                <category category-id="mens-clothing-dress-shirts"/>
+                <category category-id="womens-accessories"/>
+                <category category-id="mens-clothing-pants"/>
+            </categories>
+        </content>
+        <customer-groups>
+            <customer-group group-id="Registered"/>
+        </customer-groups>
+    </slot-configuration>
+
+    <slot-configuration slot-id="list-category-tiles" context="category" context-id="newarrivals" configuration-id="category-tiles-men" assigned-to-site="true">
+        <template>slots/category/categoryTileCustom.isml</template>
+        <rank>10</rank>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <categories>
+                <category category-id="mens-clothing-suits"/>
+                <category category-id="mens-clothing-pants"/>
+                <category category-id="mens-clothing-jackets"/>
+            </categories>
+        </content>
+        <customer-groups>
+            <customer-group group-id="Registered Men"/>
+        </customer-groups>
+    </slot-configuration>
+
+    <slot-configuration slot-id="list-category-tiles" context="category" context-id="newarrivals" configuration-id="category-tiles-women" assigned-to-site="true">
+        <template>slots/category/categoryTileCustom.isml</template>
+        <rank>10</rank>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <categories>
+                <category category-id="womens-clothing"/>
+                <category category-id="womens-jewelry"/>
+                <category category-id="womens-accessories"/>
+            </categories>
+        </content>
+        <customer-groups>
+            <customer-group group-id="Registered Women"/>
+        </customer-groups>
+    </slot-configuration>
+
+    <slot-configuration slot-id="home-hero-slider" context="global" configuration-id="hero-slides" assigned-to-site="true">
+        <template>slots/content/homeHeroSliderSlot.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="home-hero-slide-1"/>
+                <content-asset content-id="home-hero-slide-2"/>
+                <content-asset content-id="home-hero-slide-3"/>
+                <content-asset content-id="home-hero-slide-4"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="home-featured-products" context="global" configuration-id="home-featured-products-default" assigned-to-site="true">
+        <template>slots/product/homePageProductTile.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <products>
+                <product product-id="25686514M"/>
+                <product product-id="25589444M"/>
+                <product product-id="25752235M"/>
+                <product product-id="25778945M"/>
+                <product product-id="25594754M"/>
+                <product product-id="82936941M"/>
+            </products>
+        </content>
+        <customer-groups>
+            <customer-group group-id="Everyone"/>
+        </customer-groups>
+    </slot-configuration>
+
+    <slot-configuration slot-id="home-featured-products" context="global" configuration-id="home-featured-products-men" assigned-to-site="true">
+        <template>slots/product/homePageProductTile.isml</template>
+        <rank>10</rank>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <products>
+                <product product-id="25686514M"/>
+                <product product-id="25752235M"/>
+                <product product-id="82936941M"/>
+                <product product-id="74974310M"/>
+                <product product-id="73910532M"/>
+                <product product-id="21736758M"/>
+            </products>
+        </content>
+        <customer-groups>
+            <customer-group group-id="Registered Men"/>
+        </customer-groups>
+    </slot-configuration>
+
+    <slot-configuration slot-id="home-featured-products" context="global" configuration-id="home-featured-products-women" assigned-to-site="true">
+        <template>slots/product/homePageProductTile.isml</template>
+        <rank>10</rank>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <products>
+                <product product-id="25592581M"/>
+                <product product-id="25642399M"/>
+                <product product-id="25696693M"/>
+                <product product-id="25589444M"/>
+                <product product-id="25778945M"/>
+                <product product-id="25594754M"/>
+            </products>
+        </content>
+        <customer-groups>
+            <customer-group group-id="Registered Women"/>
+        </customer-groups>
+    </slot-configuration>
+
+    <slot-configuration slot-id="home-list-category-tiles" context="global" configuration-id="home-list-category-tiles-default" assigned-to-site="true">
+        <template>slots/category/categoryTileCustom.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <categories>
+                <category category-id="newarrivals-womens"/>
+                <category category-id="newarrivals-mens"/>
+                <category category-id="newarrivals-electronics"/>
+            </categories>
+        </content>
+        <customer-groups>
+            <customer-group group-id="Unregistered"/>
+        </customer-groups>
+    </slot-configuration>
+
+    <slot-configuration slot-id="home-list-category-tiles" context="global" configuration-id="home-list-category-tiles-men" assigned-to-site="true">
+        <template>slots/category/categoryTileCustom.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <categories>
+                <category category-id="mens-clothing-suits"/>
+                <category category-id="mens-clothing-pants"/>
+                <category category-id="mens-clothing-jackets"/>
+            </categories>
+        </content>
+        <customer-groups>
+            <customer-group group-id="Registered Men"/>
+        </customer-groups>
+    </slot-configuration>
+
+    <slot-configuration slot-id="home-list-category-tiles" context="global" configuration-id="home-list-category-tiles-registered" assigned-to-site="true">
+        <template>slots/category/categoryTileCustom.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <categories>
+                <category category-id="newarrivals-womens"/>
+                <category category-id="mens-clothing-jackets"/>
+                <category category-id="womens-jewelry"/>
+                <category category-id="mens-clothing-dress-shirts"/>
+                <category category-id="womens-accessories"/>
+                <category category-id="mens-clothing-pants"/>
+            </categories>
+        </content>
+        <customer-groups>
+            <customer-group group-id="Registered"/>
+        </customer-groups>
+    </slot-configuration>
+
+    <slot-configuration slot-id="home-list-category-tiles" context="global" configuration-id="home-list-category-tiles-women" assigned-to-site="true">
+        <template>slots/category/categoryTileCustom.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <categories>
+                <category category-id="womens-clothing"/>
+                <category category-id="womens-jewelry"/>
+                <category category-id="womens-accessories"/>
+            </categories>
+        </content>
+        <customer-groups>
+            <customer-group group-id="Registered Women"/>
+        </customer-groups>
+    </slot-configuration>
+
+</slot-configurations>
