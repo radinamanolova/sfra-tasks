@@ -1,0 +1,15 @@
+{
+    "name": "Custom Home Page",
+    "description": "A Custom Home Page Layout",
+    "region_definitions": [
+        {
+            "id": "main",
+            "name": "Main Region",
+            "component_type_exclusions": [
+                {
+                    "type_id": "commerce_assets.heroContent"
+                }
+            ]
+        }
+    ]
+}
