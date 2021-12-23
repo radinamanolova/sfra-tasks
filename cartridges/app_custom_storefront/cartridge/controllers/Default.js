@@ -1,13 +1,13 @@
-'use static';
+'use strict';
 
 /**
- * @namespace Home
+ * @namespace Default
  */
 
 var server = require('server');
 server.extend(module.superModule);
 
-server.append('Show', function (req, res, next) {
+server.append('Start', function (req, res, next) {
     const Site = require('dw/system/Site');
     const PageMgr = require('dw/experience/PageMgr');
 
@@ -22,6 +22,6 @@ server.append('Show', function (req, res, next) {
     }
 
     next();
-})
+});
 
 module.exports = server.exports();

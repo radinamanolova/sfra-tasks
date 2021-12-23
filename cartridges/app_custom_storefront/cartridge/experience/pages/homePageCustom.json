@@ -3,6 +3,11 @@
     "description": "A Custom Home Page Layout",
     "region_definitions": [
         {
+            "id": "header",
+            "name": "Header Region",
+            "max_components": 1
+        },
+        {
             "id": "main",
             "name": "Main Region",
             "component_type_exclusions": [

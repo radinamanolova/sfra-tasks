@@ -7,6 +7,7 @@
         </isscript>
 
         <div class="storepage">
+        <isprint value="${pdict.regions.header.render()}" encoding="off" />
             <div class="container">
                 <div class="row">
                     <isprint value="${pdict.regions.main.setClassName(" col-12").render()}" encoding="off" />

@@ -1,0 +1,50 @@
+{
+    "name": "Hero Content",
+    "description": "Hero content with title, background image, short description and CTA.",
+    "group": "commerce_assets",
+    "attribute_definition_groups": [
+        {
+            "id": "heroContentSpec",
+            "name": "Hero Content Specifications",
+            "description": "Specifications of the hero content to be displayed in editor.",
+            "attribute_definitions": [
+                {
+                    "id": "title",
+                    "name": "Title",
+                    "description": "Title displayed at the top in the hero content.",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "image",
+                    "name": "Background Image",
+                    "description": "Background image of the entire hero content.",
+                    "type": "file",
+                    "required": true
+                },
+                {
+                    "id": "description",
+                    "name": "Short Description",
+                    "description": "Short description displayed at the bottom in the hero content.",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "id": "ctaText",
+                    "name": "CTA Title",
+                    "description": "CTA title displayed below the short description in the hero content.",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "ctaLink",
+                    "name": "CTA Link",
+                    "description": "CTA link displayed below the short description in the hero content.",
+                    "type": "url",
+                    "required": true
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}
