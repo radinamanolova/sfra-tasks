@@ -1,0 +1,22 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/experience/components/commerceAssets/customCategory.css');
+</isscript>
+
+<div class="component-container">
+    <div class="cta-container" <isif condition="${pdict.ctaPosition === 'top'}">style="display: block; margin-bottom: 0.5rem"<iselse/>style="display: none"</isif>>
+        <a class="btn btn-outline-dark btn-sm btn-block" href="${pdict.url}">${pdict.ctaText}</a>
+    </div>
+    <a class="content-link" href="${pdict.url}">
+        <div class="image-container">
+            <img class="mx-auto d-block" src="${pdict.categoryImage}" alt="${pdict.categoryTitle}" width="300px">
+        </div>
+        <div class="text-container">
+            <h4 class="text-center mt-2">${pdict.category.displayName}</h4>
+            <h6 class="text-center text-muted">${pdict.shortDescription}</h6>
+        </div>
+    </a>
+    <div class="cta-container" <isif condition="${pdict.ctaPosition === 'bottom'}">style="display: block"<iselse/>style="display: none"</isif>>
+        <a class="btn btn-outline-dark btn-sm btn-block" href="${pdict.url}">${pdict.ctaText}</a>
+    </div>
+</div>

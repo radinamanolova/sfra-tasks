@@ -1,0 +1,17 @@
+.component-container {
+  margin: 0;
+  width: 100%;
+  height: 100%; }
+
+a.content-link,
+a.btn.btn-outline-dark.btn-sm.btn-block {
+  color: black !important;
+  text-decoration: none !important; }
+
+a.btn.btn-outline-dark.btn-sm.btn-block {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto; }
+
+a.btn.btn-outline-dark.btn-sm.btn-block:hover {
+  color: white !important; }

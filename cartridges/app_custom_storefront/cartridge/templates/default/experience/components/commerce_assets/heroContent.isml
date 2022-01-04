@@ -3,8 +3,8 @@
     assets.addCss('/css/experience/components/commerceAssets/heroContent.css');
 </isscript>
 
-<div class="hero-container">
-    <img class="hero-image d-block w-100" src="${pdict.imageUrl}" alt="${pdict.title}">
+<div class="hero-container mb-5">
+    <img class="hero-image d-block w-100" src="${pdict.imageUrl}" alt="${pdict.title}" />
     <div class="hero-heading">
         <h2 class="hero-title">${pdict.title}</h2>
     </div>

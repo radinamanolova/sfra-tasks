@@ -19,5 +19,5 @@ module.exports.render = function (context) {
     model.ctaText = content.ctaText;
     model.ctaLink = content.ctaLink ? content.ctaLink : '#';
 
-    return new Template('experience/components/heroContent').render(model).text;
+    return new Template('experience/components/commerce_assets/heroContent').render(model).text;
 }

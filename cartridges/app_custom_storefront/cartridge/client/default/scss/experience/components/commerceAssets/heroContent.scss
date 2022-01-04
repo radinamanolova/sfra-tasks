@@ -30,3 +30,14 @@
 .hero-cta{
     color: white;
 }
+
+@media (max-width: 768px) {
+    .hero-heading h2 {
+        margin-top: 10%;
+        font-size: 1.5rem;
+    }
+
+    .hero-description{
+        font-size: 0.5rem;
+    }
+  }

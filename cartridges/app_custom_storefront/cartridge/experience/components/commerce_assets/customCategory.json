@@ -1,0 +1,62 @@
+{
+    "name": "Custom Category",
+    "description": "Custom category with category id, title, short description and CTA.",
+    "group": "commerce_assets",
+    "attribute_definition_groups": [
+        {
+            "id": "customCategorySpec",
+            "name": "Custom Category Specifications",
+            "description": "Specifications of the custom category to be displayed in editor.",
+            "attribute_definitions": [
+                {
+                    "id": "categoryID",
+                    "name": "Category ",
+                    "description": "Choose category from the catalog.",
+                    "type": "category",
+                    "required": true
+                },
+                {
+                    "id": "categoryImage",
+                    "name": "Category Image",
+                    "description": "Background image of the category content.",
+                    "type": "file",
+                    "required": true
+                },
+                {
+                    "id": "description",
+                    "name": "Short Description",
+                    "description": "Short description displayed at the bottom in the hero content.",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "id": "ctaSpec",
+            "name": "CTA Specifications",
+            "description": "Specify the text and position of the CTA. The URL is taken from the selected category from above.",
+            "attribute_definitions": [
+                {
+                    "id": "ctaText",
+                    "name": "CTA Title",
+                    "description": "CTA title displayed below the short description in the hero content.",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "ctaPosition",
+                    "name": "Position of the CTA",
+                    "description": "Select the position of the CTA.",
+                    "type": "enum",
+                    "values": [
+                        "Top",
+                        "Bottom"
+                    ],
+                    "required": true,
+                    "default_value": "Bottom"
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}
