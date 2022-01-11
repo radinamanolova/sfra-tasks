@@ -24,6 +24,8 @@ cartridges/app_storefront_base/cartridge/static/en_GB/js/
 cartridges/app_storefront_base/cartridge/static/en_GB/fonts/
 
 cartridges/app_custom_training/
+cartridges/int_catfact/
+cartridges/int_starship/
 rvw_developers_core/
 
 coverage/
