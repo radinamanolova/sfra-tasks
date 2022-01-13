@@ -105,7 +105,7 @@ server.replace(
                                 var newCustomer = CustomerMgr.createCustomer(login, password);
 
                                 if (herokuServiceExists) {
-                                    // Heroku Service attepmpt to write the heroku ID
+                                    // Heroku Service to write the heroku ID
                                     var customerNumberHeroku = HookMgr.callHook('custom.customer.data',
                                         'addCustomerNumber',
                                         login,
